@@ -1,0 +1,12 @@
+{
+  "name": "flock-practice-repo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "node --test dist-test/*.test.js || echo 'run npm run build:test first'",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
